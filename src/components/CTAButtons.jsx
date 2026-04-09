@@ -16,7 +16,7 @@ function CTAButtons() {
         rel="noreferrer"
         className="cta-btn primary"
       >
-        View Website
+        View Admin Panel
       </motion.a>
 
       <motion.div {...buttonAnimation} className="cta-btn secondary">

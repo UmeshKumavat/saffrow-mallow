@@ -21,7 +21,7 @@ const BUBBLE_ITEMS = [
   { x: "90%", size: "68px", delay: "1.1s", duration: "8.6s" },
 ];
 
-function HeroSection() {
+function HeroSection({ onLaunch }) {
   const [secondsLeft, setSecondsLeft] = useState(INITIAL_SECONDS);
   const [isStarting, setIsStarting] = useState(false);
   const [isCounting, setIsCounting] = useState(false);
@@ -69,6 +69,7 @@ function HeroSection() {
     }
 
     setIsLaunched(true);
+    if (onLaunch) onLaunch();
     setBubblePhase("pop");
 
     bubbleHideRef.current = window.setTimeout(() => {
