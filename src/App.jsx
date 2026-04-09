@@ -1,9 +1,9 @@
-import { useState } from 'react';
-import Header from './components/Header';
-import HeroSection from './sections/HeroSection';
-import FeaturesSection from './sections/FeaturesSection';
-import ShowcaseSection from './sections/ShowcaseSection';
-import FinalCtaSection from './sections/FinalCtaSection';
+import { useState } from "react";
+import Header from "./components/Header";
+import HeroSection from "./sections/HeroSection";
+import FeaturesSection from "./sections/FeaturesSection";
+import ShowcaseSection from "./sections/ShowcaseSection";
+import FinalCtaSection from "./sections/FinalCtaSection";
 
 function App() {
   const [isLaunched, setIsLaunched] = useState(false);

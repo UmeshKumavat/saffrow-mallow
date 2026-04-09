@@ -1,9 +1,9 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 function FinalCtaSection() {
   return (
     <section className="section final-cta-section">
-      <motion.a
+      {/* <motion.a
         href="https://play.google.com/store/apps"
         target="_blank"
         rel="noreferrer"
@@ -14,7 +14,7 @@ function FinalCtaSection() {
         transition={{ duration: 0.55 }}
       >
         Click here to discover Saffro Mellow in action.
-      </motion.a>
+      </motion.a> */}
     </section>
   );
 }
